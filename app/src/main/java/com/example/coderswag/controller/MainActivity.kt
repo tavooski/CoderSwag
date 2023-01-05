@@ -1,12 +1,10 @@
 package com.example.coderswag.controller
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ArrayAdapter
 import android.widget.ListView
+import androidx.appcompat.app.AppCompatActivity
 import com.example.coderswag.R
 import com.example.coderswag.adapter.CategoryAdapter
-import com.example.coderswag.model.Category
 import com.example.coderswag.services.DataService
 
 class MainActivity : AppCompatActivity() {
