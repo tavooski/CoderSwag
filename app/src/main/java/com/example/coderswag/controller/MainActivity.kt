@@ -23,11 +23,11 @@ class MainActivity : AppCompatActivity() {
             productIntent.putExtra(EXTRA_CATEGORY, it.title)
             startActivity(productIntent)
         }
-        val categoryListView: RecyclerView = findViewById(R.id.categoryListView)
-        categoryListView.adapter = adapter
 
+        val categoryListView: RecyclerView = findViewById(R.id.categoryListView)
         val layoutManager = LinearLayoutManager(this)
         categoryListView.layoutManager = layoutManager
+        categoryListView.adapter = adapter
         categoryListView.setHasFixedSize(true)
     }
 }
